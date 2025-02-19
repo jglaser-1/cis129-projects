@@ -45,7 +45,7 @@ else:
 if sandwichesBought > 1:
     print(str(sandwichesBought) + " Sandwiches at $6.50 each: $" + f"{SandwichTotalCost:.2f}")
 else:
-    print(str(sandwichesBought) + " Sandwiche: $" + f"{SandwichTotalCost:.2f}")
+    print(str(sandwichesBought) + " Sandwich: $" + f"{SandwichTotalCost:.2f}")
 print("6% tax: $" + f"{tax:.2f}")
 print("---------")
 print("Total: $" + f"{taxTotal:.2f}")
